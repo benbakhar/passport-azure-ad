@@ -1,5 +1,24 @@
 <a name="4.0.0"></a>
 
+# 4.3.0
+
+## Features
+
+- Add proxy support to OIDCStrategy: #435
+
+## Bugs
+
+- Fix sameSiteNotAllowed: #465
+- Fix crash if Bearer token is blank: #474
+- Stringify optionToValidate when logging: #437
+- Properly handle malformed json: #436
+- Update dependencies to resolve security vulnerabilities: #511
+
+# 4.2.1
+### Fix Policy Checker Bug 
+#426 merged 
+Fix for the policyChecker that will never work as the pathname will never contain query parameters.
+
 # 4.2.0
 ### Support for Same Site.
 * Passport now offers support for the cookie attribute `SameSite` for the Oidc Strategy.  Without this cookie attribute set, coookies will not be forwarded back to the server to verify the state and nonce of an id token in Chrome 80+.  To read more about the Same Site changes chrome is making, please see https://www.chromium.org/updates/same-site.
