@@ -32,7 +32,7 @@
     "nodeunit": "^0.11.3"
   },
   "dependencies": {
-    "async": "^1.5.2",
+    "async": "^3.2.0",
     "base64url": "^3.0.0",
     "bunyan": "^1.8.14",
     "cache-manager": "2.10.2",
