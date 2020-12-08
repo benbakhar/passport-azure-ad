@@ -27,7 +27,7 @@
     "chai-passport-strategy": "1.x.x",
     "grunt": "^1.0.1",
     "grunt-contrib-nodeunit": "^2.1.0",
-    "grunt-mocha-test": "^0.12.7",
+    "grunt-mocha-test": "^0.13.3",
     "mocha": "^5.2.0",
     "nodeunit": "^0.11.3"
   },
